@@ -1,0 +1,126 @@
+body{
+    background-image:url(../img/fondo2.jpg);
+    background-size: 170%;
+}
+
+.menu li{
+    list-style: none;
+    color: black;
+    display: inline;
+    background:rgb(255, 255, 255);
+    margin: 0 65px;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px ;
+}
+
+#encabezado{
+    color: #E6E6FA;
+    border-radius: 10px;
+    width: 80%;
+    margin: 10px 10%;
+    background-image: url(../img/2.jpg);
+    background-size:100%;
+    text-align:center;
+}
+
+#seccion1{
+    float: left;
+    width: 38%;
+    height: 560px;
+    margin: 0 0 5% 7%;
+    background-image: url(../img/9.jpg);
+    background-size:100%;
+    padding: 10px 10px 190px 10px;
+    color:#2D938E;
+}
+
+#seccion2{
+    text-align: justify;
+    float: right;
+    width: 38%;
+    height: 560px;
+    margin: 0 0 5% 10%;
+    background-image: url(../img/9.jpg);
+    background-size:100%;
+    padding: 10px 10px 190px 10px;
+}
+
+#seccion3{
+    text-align: center;
+    float: left;
+    width: 38%;
+    height: 500px;
+    margin: 0 0 0 7%;
+    background-image: url(../img/9.jpg);
+    background-size:100%;
+    padding: 10px 10px 10px 10px;
+}
+
+#seccion4{
+    text-align: justify;
+    float: right;
+    width: 38%;
+    height:500px;
+    margin: 0 0 5% 3%;
+    background-image: url(../img/9.jpg);
+    background-size:100%;
+    padding: 10px 10px 10px 10px;
+}
+
+
+#piePagina{
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    width:81%;
+    margin: 5% 10% 10%;
+    height: 70px;
+    background-image: url(../img/1.jpg);
+    background-size: 200;
+    clear: both;
+    font-style: italic;
+    font-weight: bold;
+    font-size:31px;
+    align-self: flex-end;
+}
+
+#para1{
+    text-align: center;
+    color: #593098;
+}
+
+#parrafo2{
+    text-align: left;
+    color: rgb(67, 137, 218);
+    font-size: 21px;
+}
+
+#para3{
+    text-align: center;
+    color: #593098;
+    font-size:20px;
+}
+
+#mies{
+    text-align:center;
+    color:#6E5299;
+    font-size:30px;
+    font-style: italic;
+    font-weight:bold;
+}
+
+.centrar{
+ background-color: #ff92a8;
+text-align: center;
+color: #ebb6ff;
+font-style: italic;
+font-size: 35px;
+font-weight: bold;
+}
+
+.Miestilo1{
+    background-color: #ffabbe;
+    font-size:20px ;
+    padding: 25px 25px 25px 25px;
+    color: #b6fff2;
+}

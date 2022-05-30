@@ -1,0 +1,105 @@
+body{
+    background-image:url(../img/fondo2.jpg);
+    background-size: 170%;
+}
+
+#encabezado{
+    color: #E6E6FA;
+    border-radius: 10px;
+    width: 80%;
+    margin: 10px 10%;
+    background-image: url(../img/2.jpg);
+    background-size:100%;
+    text-align:center;
+}
+
+#seccion5{
+    text-align: center;
+    float: center;
+    width: 38%;
+    height: 870px;
+    margin: 0 0 0 30%;
+    background-image: url(../img/20.jpg);
+    background-size:100%;
+    padding: 10px 10px 10px 10px;
+    color:white;
+    font-style: italic;
+    font-weight: bold;
+    font-size:20px;
+}
+
+#seccion6{
+    text-align: center;
+    float: center;
+    width: 38%;
+    height: 1000px;
+    margin: 0 0 0 30%;
+    background-image: url(../img/20.jpg);
+    background-size:100%;
+    padding: 10px 10px 10px 10px;
+    color:white;
+    font-style: italic;
+    font-weight: bold;
+    font-size:20px;
+}
+
+#seccion7{
+    text-align: center;
+    float: center;
+    width: 38%;
+    height: 300px;
+    margin: 0 0 0 30%;
+    background-image: url(../img/20.jpg);
+    background-size:100%;
+    padding: 10px 10px 10px 10px;
+    color:white;
+    font-style: italic;
+    font-weight: bold;
+    font-size:20px;
+}
+
+#seccion8{
+    text-align: center;
+    float: center;
+    width: 40%;
+    height: 1730px;
+    margin: 0 0 0 30%;
+    background-image: url(../img/20.jpg);
+    background-size:100%;
+    padding: 10px 10px 10px 10px;
+    color:white;
+    font-style: italic;
+    font-weight: bold;
+    font-size:20px;
+}
+
+#seccion9{
+    text-align: center;
+    float: center;
+    width: 40%;
+    height: 300px;
+    margin: 0 0 0 30%;
+    background-image: url(../img/20.jpg);
+    background-size:100%;
+    padding: 10px 10px 10px 10px;
+    color:white;
+    font-style: italic;
+    font-weight: bold;
+    font-size:20px;
+}
+
+#piePagina{
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    width:81%;
+    margin: 5% 10% 10%;
+    height: 45px;
+    background-image: url(../img/1.jpg);
+    background-size: 200;
+    clear: both;
+    font-style: italic;
+    font-weight: bold;
+    font-size:31px;
+    align-self: flex-end;
+}
