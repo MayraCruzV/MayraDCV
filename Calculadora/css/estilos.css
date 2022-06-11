@@ -1,0 +1,111 @@
+#encabezado{
+    color: #E6E6FA;
+    border-radius: 10px;
+    width: 80%;
+    margin: 10px 10%;
+    text-align:center;
+}
+
+body{
+    background-image:url(../img/fondo\ mate.jpg);
+    background-size: 130%;
+}
+
+
+.Miapp{
+    height: 550px;
+    width: 300px; 
+    border: 3px black ;
+    border-radius: 5px;
+    background-color: white;
+    margin: 100px 150px 50px 500px ;
+}
+
+.Miapp form{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.Miapp input[type=textfield]{
+height: 25%;
+width: 90%;
+cursor: default;
+font-family: 'Reboto', sans-serif;
+background-color:black;
+color: white;
+padding: 15px;
+text-align: right;
+font-size: 50px;
+border: 0;
+outline: none;
+}
+
+.Miapp input[type=button], input[type=reset]{
+    width: 22%;
+    cursor: pointer;
+    font-family: 'Reboto', sans-serif;
+    background-color: white;
+    font-size: 26px;
+    padding: 18px;
+    margin: 3px;
+    border: 0;
+    border-radius: 100%;
+}
+
+.Miapp .blue{
+background-color: #0d7171 !important;
+color:white !important;
+}
+
+.Miapp .amarillo{
+    background-color: #FDCB26 !important;
+    color:white !important;
+}
+    
+.Miapp .bluee{
+    background-color: #6CCECF !important;
+    color:black !important; 
+}
+
+.Miapp .cero{
+    background-color: #0d7171 !important;
+    color:white !important;
+    transform: scale(.9)  rotate(90deg) translate(-35px,-43px) ;
+    height: 150px;
+}
+
+.Miapp .black{
+    background-color: #000000 !important;
+    color:black !important; 
+}
+
+
+.Miapp .amarillo2{
+    background-color: #FDCB26 !important;
+    color:white !important;
+    position: relative;
+    transform:translate(75px,-30px) ;
+
+}
+
+.Miapp .blue2{
+    background-color: #0d7171 !important;
+    color:white !important;
+    position: relative;
+    transform:translate(75px,-30px);
+}
+
+#piePagina{
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    width:81%;
+    margin: 5% 10% 10%;
+    height: 5px;
+    clear: both;
+    font-style: italic;
+    font-weight: bold;
+    font-size:19px;
+    align-self: flex-end;
+}

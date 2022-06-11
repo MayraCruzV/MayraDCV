@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>---CALCULADORA---</title>
+    <link rel="stylesheet" href="css/estilos.css">
+ 
+</head>
+<body>
+    <header id="encabezado">
+        <h1>Practica 7</h1>
+        <h2>Calculadora con HTML, CSS Y JAVASCRIPT</h2>
+      </header>
+
+    <div class="Miapp" >   
+        <form name="calculador">
+            <input id="resultado" type="textfield" name="ans" value="" autocomplete="off" readonly >
+            <br>
+            <input type="reset" value="AC" class="bluee" id="AC">
+            <input type="button" value="+/-" class="bluee" id="mme" onclick="boton(value)">
+            <input type="button" value="%" class="bluee" id="porce" onclick="boton(value)">
+            <input type="button" value="/" class="bluee" id="entre" onclick="boton(value)">
+            <br>
+            <input type="button" value="7" class="blue" id="siete" onclick="boton(value)">
+            <input type="button" value="8" class="blue" id="ocho" onclick="boton(value)">
+            <input type="button" value="9" class="blue" id="nueve" onclick="boton(value)">
+            <input type="button" value="*" class="amarillo" id="eq" onclick="boton(value)">
+            <br>
+            <input type="button" value="4" class="blue" id="cuatro" onclick="boton(value)">
+            <input type="button" value="5" class="blue" id="cinco" onclick="boton(value)">
+            <input type="button" value="6" class="blue" id="seis" onclick="boton(value)">
+            <input type="button" value="-" class="amarillo" id="menos" onclick="boton(value)">
+            <br>
+            <input type="button" value="1" class="blue" id="uno" onclick="boton(value)">
+            <input type="button" value="2" class="blue" id="dos" onclick="boton(value)">
+            <input type="button" value="3" class="blue" id="tres" onclick="boton(value)">
+            <input type="button" value="+" class="amarillo" id="mas" onclick="boton(value)">
+            <br>
+            <input type="button" value="0" class="cero" id="cero" onclick="boton(value)">
+            <input type="button" value="." class="blue2" id="punto" onclick="boton(value)">
+            <input type="button" value="=" class="amarillo2" id="igual" onclick="calcula(value)">
+        </form>
+    </div>
+</body>
+<footer id="piePagina">
+    <p>DERECHOS DE AUTOR: ©MAYRA DENISSE CRUZ VELAZQUEZ</p>
+  </footer>
+<script src="js/fun.js"></script>
+</html>
