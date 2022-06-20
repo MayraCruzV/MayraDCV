@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica LOGIN</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/sweet/sweetalert2.css">
+
+</head>
+
+<body>
+    <header id="encabezado">
+        <h1>Practica 9</h1>
+        <h2>LOGIN con HTML, CSS Y JAVASCRIPT</h2>
+    </header>
+
+    <form class="form-register" id="formulario">
+        <h4>Formulario</h4>
+        <label for="so">Nombre</label> 
+        <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre" onClick=" return validarNombre(nombres.value)" required="required">
+        <label for="so">Apellido Paterno</label> 
+        <input class="controls" type="text" name="apellidopaterno" id="apellidopaterno" placeholder="Ingrese su Apellido paterno" onClick=" return validarApellidos(apellidopaterno.value)" required="required">
+            <label for="so">Apellido Materno</label> 
+        <input class="controls" type="text" name="apellidomaterno" id="apellidomaterno"
+            placeholder="Ingrese su Apellido materno" onClick=" return validarApellidos(apellidomaterno.value)" required="required">
+            <label for="so">Correo Electronico</label> 
+        <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo" onClick=" return pruebaemail(correo.value)" required="required">
+        <label for="so">Estado</label> <br/>
+        <select id="estados" name="so" class="controls"  required="required">
+          <option value="" selected="selected">- Selecciona -</option>
+          <option value="Aguascalientes">Aguascalientes</option>
+          <option value="Baja California">Baja California</option>
+          <option value="Baja California Sur">Baja California Sur</option>
+          <option value="Campeche">Campeche</option>
+          <option value="Chiapas">Chiapas</option>
+          <option value="Chihuahua">Chihuahua</option>
+          <option value="CDMX">Ciudad de México</option>
+          <option value="Coahuila">Coahuila</option>
+          <option value="Colima">Colima</option>
+          <option value="Durango">Durango</option>
+          <option value="Estado de México">Estado de México</option>
+          <option value="Guanajuato">Guanajuato</option>
+          <option value="Guerrero">Guerrero</option>
+          <option value="Hidalgo">Hidalgo</option>
+          <option value="Jalisco">Jalisco</option>
+          <option value="Michoacán">Michoacán</option>
+          <option value="Morelos">Morelos</option>
+          <option value="Nayarit">Nayarit</option>
+          <option value="Nuevo León">Nuevo León</option>
+          <option value="Oaxaca">Oaxaca</option>
+          <option value="Puebla">Puebla</option>
+          <option value="Querétaro">Querétaro</option>
+          <option value="Quintana Roo">Quintana Roo</option>
+          <option value="San Luis Potosí">San Luis Potosí</option>
+          <option value="Sinaloa">Sinaloa</option>
+          <option value="Sonora">Sonora</option>
+          <option value="Tabasco">Tabasco</option>
+          <option value="Tamaulipas">Tamaulipas</option>
+          <option value="Tlaxcala">Tlaxcala</option>
+          <option value="Veracruz">Veracruz</option>
+          <option value="Yucatán">Yucatán</option>
+          <option value="Zacatecas">Zacatecas</option>
+        </select>
+        <label for="so">Calle</label> 
+        <input class="controls" type="text" name="calle" id="calle" placeholder="Ingrese su calle" onClick=" return validarCalle(calle.value)" required="required">
+        <label for="so">Numero de casa</label> 
+        <input class="controls" type="text" name="numero" id="numero" placeholder="Ingrese el numero" required="required" onClick=" return validarNumero(numero.value)">
+        <label for="so">Colonia</label> 
+        <input class="controls" type="text" name="colonia" id="colonia" placeholder="Ingrese su colonia" required="required" onClick=" return validarColonia(colonia.value)">
+        <label for="so">Numero telefonico</label> 
+        <input class="controls" type="text" name="telefono" id="telefono" placeholder="Ingrese su telefono" required="required" onClick=" return validarTelefono(telefono.value)">
+        <label for="so">Sexo</label> <br/>
+        <select id="sexo" name="so" class="controls" required="required">
+          <option value="" selected="selected">- Selecciona -</option>
+          <option value="windows">Masculino</option>
+          <option value="mac">Femenino</option>
+        </select>
+        <label for="so">Fecha de nacimiento</label> 
+        <input class="controls" type="date" name="fecha" id="fecha" required="required">
+        <label for="so">Edad</label> 
+        <input class="controls" type="number" name="edad" id="edad" onClick=" return validarEdad(edad.value)" >
+        <section>   
+              <label for="so">Educacion</label> 
+              <br>
+              <label for="so">Elige uno o varios</label> 
+              <br>
+        <input type="checkbox" name="Educacion" id="educacion"> Primaria<br> 
+        <input  type="checkbox" name="Educacion" id="educacion">Secundaria<br>
+        <input  type="checkbox" name="Educacion" id="educacion">Preparatoria<br>
+        <input type="checkbox" name="Educacion" id="educacion">Universidad<br>
+        <input type="checkbox" name="Educacion" id="educacion">Maestría<br>
+        <input type="checkbox" name="Educacion" id="educacion">Doctorado<br>
+    </section>
+   <br>
+        <label for="so">Estado civil</label> 
+        <select id="so" name="so" class="controls">
+            <option value="" selected="selected">- Selecciona -</option>
+            <option value="windows">Casado</option>
+            <option value="mac">Soltero</option>
+            <option value="mac">Divorciado</option>
+            <option value="mac">Union</option>
+          </select>
+          <label for="so">Comentarios</label> <br>
+<textarea class="controls"name="" >Ingresa tus comentarios</textarea>
+
+
+        <input class="botons" type="submit" value="Registrar" onclick="boton();"  >
+        </form>
+
+       
+
+
+</body>
+<footer id="piePagina">
+    <p>DERECHOS DE AUTOR: ©MAYRA DENISSE CRUZ VELAZQUEZ</p>
+</footer>
+<script src="js/funciones.js"></script>
+<script src="css/sweet/sweetalert2.min.js"></script>
+</html>
